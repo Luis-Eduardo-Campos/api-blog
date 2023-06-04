@@ -4,7 +4,7 @@ import json
 import jwt
 from datetime import datetime, timedelta
 from functools import wraps
-
+# Comentário
 def token_obrigatorio(f):
     @wraps(f)
     def decorated(*args, **kwargs):
